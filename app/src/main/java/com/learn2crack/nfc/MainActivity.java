@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements Listener{
-    
+                 /*123*/
     public static final String TAG = MainActivity.class.getSimpleName();
 
     private EditText mEtMessage;
@@ -92,6 +92,8 @@ public class MainActivity extends AppCompatActivity implements Listener{
         isDialogDisplayed = false;
         isWrite = false;
     }
+
+    
 
     @Override
     protected void onResume() {
